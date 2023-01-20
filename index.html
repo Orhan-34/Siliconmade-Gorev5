@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gorev5</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-side">
+            <div class="icons">
+                <i class="fa-solid fa-eye fa-3x " id="icon-eye"></i>
+                <i class="fa-solid fa-heart-pulse fa-2x" id="icon-heart"></i>
+                <i class="fa-solid fa-satellite-dish fa-2x" id="icon-satellite"></i>
+                <i class="fa-solid fa-calendar fa-2x" id="icon-calender"></i>
+                <i class="fa-solid fa-sliders fa-2x" id="icon-slider"></i>
+                <i class="fa-regular fa-comments fa-2x" id="icon-comment"></i>
+                <i class="fa-solid fa-arrow-right-from-bracket fa-2x" id="icon-exit"></i>
+            </div>
+        </div>
+        <div class="mid-side"
+            style="width: 1000px; height: 1000px; background-color: #f7f5f9; overflow: hidden; display: inline;">
+            <div class="icons">
+                <i class="fa-solid fa-table-list fa-xl" id="icon-list"></i>
+                <i class="fa-thin fa-solid fa-bars" id="icon-bars"></i>
+                <span class="last-title">LAST 15 DAYS <i class="fa-regular fa-solid fa-angle-down"
+                        id="icon-angle"></i></span>
+            </div>
+            <div class="tables" style="display: flex; justify-content: flex-start">
+                <div class="table-1">
+                    <img src="img/Twitter-logo.svg.webp" alt="twitter" id="icon-twitter">
+                    <h4 class="img-subtitle">280 K</h4>
+                    <h5 class="img-subtitle-2">Followers</h5>
+                    <i class="fa-solid fa-ellipsis" id="icon-ellips"></i>
+                </div>
+                <div class="table-1">
+                    <img src="img/instagram-img.png" alt="instagram" id="icon-instagram">
+                    <h4 class="img-subtitle">680 K</h4>
+                    <h5 class="img-subtitle-2">Followers</h5>
+                    <i class="fa-solid fa-ellipsis" id="icon-ellips"></i>
+                </div>
+                <div class="table-1">
+                    <img src="img/Youtube-logo.png" alt="youtube" id="icon-youtube">
+                    <h4 class="img-subtitle-ytb">2.3 M</h4>
+                    <h5 class="img-subtitle-ytb-2">Followers</h5>
+                    <i class="fa-solid fa-ellipsis" id="icon-ellips"></i>
+                </div>
+                <div class="table-1">
+                    <img src="img/facebook.img" alt="facebook" id="icon-facebook">
+                    <h4 class="img-subtitle">50 K</h4>
+                    <h5 class="img-subtitle-2">Followers</h5>
+                    <i class="fa-solid fa-ellipsis" id="icon-ellips"></i>
+                </div>
+            </div>
+            <div class="myChart">
+                <canvas id="chart"></canvas>
+            </div>
+            <div class="mid-down-side" style="display: flex; justify-content: flex-start">
+                <div class="mid-down-table-1">
+                    <h4 class="table-title">Key Metrics</h4>
+                    <div class="table-subtitle">
+                        <h5 style="border-bottom: 1px solid rgb(188, 184, 184);">Clicks <span
+                                class="subtitle-number1">10k</span></h5>
+                        <h5 style="border-bottom: 1px solid rgb(188, 184, 184);">Likes <span
+                                class="subtitle-number2">680</span></h5>
+                        <h5 style="border-bottom: 1px solid rgb(188, 184, 184);">Followers <span
+                                class="subtitle-number3">8k</span></h5>
+                        <h5>Impressions <span class="subtitle-number4">5500</span></h5>
+                    </div>
+                </div>
+                <div class="mid-down-table-2">
+                    <h5 style="color: white; padding-left: 20px;">Engaged Users</h5>
+                    <h4 style="color: white; padding-left: 30px; margin-top: 10px; font-size: 26px;">12.2 K</h4>
+                    <i class="fa-solid fa-angles-up"
+                        style="color: rgb(123, 123, 241); padding-left: 45px; padding-top: 26px;"></i><span
+                        style="color: white; padding-left: 10px;font-size: 12px;">19%</span>
+                </div>
+                <div class="mid-down-table-3">
+                    <h5 style="color: white; padding-left: 32px;">Page <br> Impressions</h5>
+                    <h4 style="color: white; padding-left: 30px; margin-top: 10px; font-size: 26px;">8.6 K</h4>
+                    <i class="fa-solid fa-angles-down"
+                        style="color: rgb(219, 71, 52); padding-left: 45px; padding-top: 10px;"></i><span
+                        style="color: white; padding-left: 10px;font-size: 12px;">9%</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-side" style="width: 400px; background-color: #fffffe; float: right; overflow: hidden;">
+            <i class="fa-regular fa-bell fa-xl" id="icon-bell"></i>
+            <span style="margin-left: 40px; background-color: #f7f5f9; padding: 10px; border-radius: 6%;"><i
+                    class="fa-solid fa-gift" style="padding-right: 5px;"></i><span style="padding-left: 5px;">2 NEW
+                    UPDATES</span></span>
+            <i class="fa-regular fa-user fa-xl" style="padding-left: 40px;"></i>
+
+            <!-- Right Side Image -->
+            <div>
+                <img src="img/scrum.png" alt="scrum" id="img-scrum">
+            </div>
+
+            <!-- Calender area -->
+            <div style="margin-bottom: 240px;" id="calendar">
+                <h2>Calendar right here</h2>
+            </div>
+            <div>
+                <div style="margin-left: 80px; border: 1px solid gray; padding: 20px; border-radius: 5%; width: 200px;">
+                    <i class="fa-regular fa-hand fa-xl" style="color: rgb(139, 139, 49);"></i>
+                    Say hi to Laith Hart <img src="img/men.png" alt="men" id="img-men">
+                </div>
+            </div>
+            <div style="margin-top: 20px;">
+                <div style="margin-left: 80px; border: 1px solid gray; padding: 20px; border-radius: 5%; width: 200px;">
+                    <span style="margin-top: 10px;"><i class="fa-regular fa-hand fa-xl"
+                            style="color: rgb(139, 139, 49);"></i>
+                        Say hi to Laith Hart</span> <img src="img/woman.png" alt="woman" id="img-woman">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/e3825900a4.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="index.js"></script>
+    <script>
+        let dp = new AirDatepicker('#date', {
+            inline: true
+        });
+        dp.show();
+    </script>
+</body>
+
+</html>
